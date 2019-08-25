@@ -1,0 +1,27 @@
+关键字&&数据混合驱动测试框架搭建步骤：
+
+1、在PyCharm工具中新建一个名叫KeyWordAndDataDrivenFrameWork的Python工程。
+2、在工程中新建三个Python Package，一个目录，分别命名为：
+    a、config包，用于实现框架中各种配置信息
+    b、util包，主要用于实现测试过程中调用的工具类方法，例如读取配置文件、MapObject、页面元素的操作方法、
+    解析Excel文件等
+    c、testdata目录，主要用于存放框架所需的测试数据文件
+    d、testscript包，用于实现具有测试逻辑的测试脚本
+    e、action包，用于实现具体的页面动作，比如在输入框中输入数据，单击页面按钮等。
+
+需要使用地方包
+1、模块 pypiwin32, 用于实现模拟键盘单个或组合按键，安装 pip install pypiwin32
+2、模块：openpyxl,操作Excel文件，安装pip install openpyxl
+    注意：
+    1、获取Excel表格中的行数据和列数据，行号和列号都是从0开始的，而获取某个单元格数据行号和列号都是从1开始的
+    2、写入Excel表格中的数据，行号和列号都是从1开始的
+3、模块：ConfigParser, 操作配置文件，安装pip install ConfigParser
+4、模块：selenium, 安装：pip install selenium
+
+
+
+小坑：
+python中global定义的全局变量，仅限在一个一个模块(py文件)中调用有效
+如果需要定义一个在所有模块中都可以使用的变量，则需要做点特殊的处理，global_var.py就是特殊处理的模块。
+在util包中的__init__.py文件中进行初始化。
+

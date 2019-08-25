@@ -1,0 +1,695 @@
+2019-04-12 17:43:10 log.py[line:20] INFO 开始执行用例 "登录163邮箱":
+2019-04-12 17:43:13 log.py[line:20] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-12 17:43:16 log.py[line:20] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-12 17:43:19 log.py[line:20] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-12 17:43:20 log.py[line:20] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-12 17:43:21 log.py[line:20] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-12 17:43:22 log.py[line:20] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-12 17:43:24 log.py[line:20] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-12 17:43:25 log.py[line:20] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-12 17:43:29 log.py[line:20] INFO 步骤: 等待, 执行成功！
+2019-04-12 17:43:30 log.py[line:20] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-12 17:43:33 log.py[line:20] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-12 17:43:34 log.py[line:20] INFO 开始执行用例 "发送带附件的邮件":
+2019-04-12 17:43:34 log.py[line:20] INFO 步骤: 判断”写信“按钮是否在页面上可见, 执行成功！
+2019-04-12 17:43:35 log.py[line:20] INFO 步骤: 单击”写信“按钮, 执行成功！
+2019-04-12 17:43:37 log.py[line:20] INFO 步骤: 输入收件人地址, 执行成功！
+2019-04-12 17:43:38 log.py[line:20] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-12 17:43:39 log.py[line:20] INFO 步骤: 输入邮件主题, 执行成功！
+2019-04-12 17:43:40 log.py[line:20] INFO 步骤: 单击”添加附件“连接, 执行成功！
+2019-04-12 17:43:43 log.py[line:20] INFO 步骤: 输入附件所在绝对路径, 执行成功！
+2019-04-12 17:43:44 log.py[line:20] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-12 17:43:46 log.py[line:20] INFO 步骤: 显式等待附件上传完毕, 执行成功！
+2019-04-12 17:43:47 log.py[line:20] INFO 步骤: 如果邮件正文中的frame框是可见，切换进该frame中, 执行成功！
+2019-04-12 17:43:48 log.py[line:20] INFO 步骤: 输入邮件正文, 执行成功！
+2019-04-12 17:43:49 log.py[line:20] INFO 步骤: 退出邮件正文的frame, 执行成功！
+2019-04-12 17:43:50 log.py[line:20] INFO 步骤: 单击”邮件发送“按钮, 执行成功！
+2019-04-12 17:43:51 log.py[line:20] INFO 步骤: 断言页面中包含”发送成功”, 执行成功！
+2019-04-12 17:43:55 log.py[line:20] INFO 步骤: 关闭浏览器, 执行成功！
+2019-04-12 17:43:55 log.py[line:20] INFO 共2条用例，2条需要被执行，本次执行通过2条
+
+
+2019-04-12 22:49:19 log.py[line:20] INFO 开始执行用例 "登录163邮箱":
+2019-04-12 22:49:22 log.py[line:20] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-12 22:49:24 log.py[line:20] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-12 22:49:27 log.py[line:20] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-12 22:49:28 log.py[line:20] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-12 22:49:29 log.py[line:20] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-12 22:49:30 log.py[line:20] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-12 22:49:31 log.py[line:20] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-12 22:49:32 log.py[line:20] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-12 22:49:36 log.py[line:20] INFO 步骤: 等待, 执行成功！
+2019-04-12 22:49:37 log.py[line:20] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-12 22:49:38 log.py[line:20] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-12 22:49:40 log.py[line:20] INFO 开始执行用例 "发送带附件的邮件":
+2019-04-12 22:49:40 log.py[line:20] INFO 步骤: 判断”写信“按钮是否在页面上可见, 执行成功！
+2019-04-12 22:49:41 log.py[line:20] INFO 步骤: 单击”写信“按钮, 执行成功！
+2019-04-12 22:49:43 log.py[line:20] INFO 步骤: 输入收件人地址, 执行成功！
+2019-04-12 22:49:44 log.py[line:20] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-12 22:49:45 log.py[line:20] INFO 步骤: 输入邮件主题, 执行成功！
+2019-04-12 22:49:46 log.py[line:20] INFO 步骤: 单击”添加附件“连接, 执行成功！
+2019-04-12 22:49:49 log.py[line:20] INFO 步骤: 输入附件所在绝对路径, 执行成功！
+2019-04-12 22:49:50 log.py[line:20] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-12 22:49:51 log.py[line:20] INFO 步骤: 显式等待附件上传完毕, 执行成功！
+2019-04-12 22:49:52 log.py[line:20] INFO 步骤: 如果邮件正文中的frame框是可见，切换进该frame中, 执行成功！
+2019-04-12 22:49:53 log.py[line:20] INFO 步骤: 输入邮件正文, 执行成功！
+2019-04-12 22:49:54 log.py[line:20] INFO 步骤: 退出邮件正文的frame, 执行成功！
+2019-04-12 22:49:55 log.py[line:20] INFO 步骤: 单击”邮件发送“按钮, 执行成功！
+2019-04-12 22:49:57 log.py[line:20] INFO 步骤: 断言页面中包含”发送成功”, 执行成功！
+2019-04-12 22:50:00 log.py[line:20] INFO 步骤: 关闭浏览器, 执行成功！
+2019-04-12 22:50:01 log.py[line:20] INFO 共2条用例，2条需要被执行，本次执行通过2条
+
+2019-04-12 22:56:51 log.py[line:21] INFO 开始执行用例 "登录163邮箱":
+2019-04-12 22:56:54 test_send_mail_with_attachment.py[line:130] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-12 22:56:55 test_send_mail_with_attachment.py[line:130] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-12 22:56:58 test_send_mail_with_attachment.py[line:130] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-12 22:56:59 test_send_mail_with_attachment.py[line:130] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-12 22:57:00 test_send_mail_with_attachment.py[line:130] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-12 22:57:01 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-12 22:57:03 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-12 22:57:04 test_send_mail_with_attachment.py[line:130] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-12 22:57:08 test_send_mail_with_attachment.py[line:130] INFO 步骤: 等待, 执行成功！
+2019-04-12 22:57:11 test_send_mail_with_attachment.py[line:130] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-12 22:57:12 test_send_mail_with_attachment.py[line:130] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-12 22:57:13 log.py[line:21] INFO 开始执行用例 "发送带附件的邮件":
+2019-04-12 22:57:13 test_send_mail_with_attachment.py[line:130] INFO 步骤: 判断”写信“按钮是否在页面上可见, 执行成功！
+2019-04-12 22:57:15 test_send_mail_with_attachment.py[line:130] INFO 步骤: 单击”写信“按钮, 执行成功！
+2019-04-12 22:57:16 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入收件人地址, 执行成功！
+2019-04-12 22:57:17 test_send_mail_with_attachment.py[line:130] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-12 22:57:18 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入邮件主题, 执行成功！
+2019-04-12 22:57:19 test_send_mail_with_attachment.py[line:130] INFO 步骤: 单击”添加附件“连接, 执行成功！
+2019-04-12 22:57:22 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入附件所在绝对路径, 执行成功！
+2019-04-12 22:57:23 test_send_mail_with_attachment.py[line:130] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-12 22:57:25 test_send_mail_with_attachment.py[line:130] INFO 步骤: 显式等待附件上传完毕, 执行成功！
+2019-04-12 22:57:26 test_send_mail_with_attachment.py[line:130] INFO 步骤: 如果邮件正文中的frame框是可见，切换进该frame中, 执行成功！
+2019-04-12 22:57:27 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入邮件正文, 执行成功！
+2019-04-12 22:57:28 test_send_mail_with_attachment.py[line:130] INFO 步骤: 退出邮件正文的frame, 执行成功！
+2019-04-12 22:57:29 test_send_mail_with_attachment.py[line:130] INFO 步骤: 单击”邮件发送“按钮, 执行成功！
+2019-04-12 22:57:30 test_send_mail_with_attachment.py[line:130] INFO 步骤: 断言页面中包含”发送成功”, 执行成功！
+2019-04-12 22:57:34 test_send_mail_with_attachment.py[line:130] INFO 步骤: 关闭浏览器, 执行成功！
+2019-04-12 22:57:35 test_send_mail_with_attachment.py[line:141] INFO 共2条用例，2条需要被执行，本次执行通过2条
+
+2019-04-12 22:58:12 test_send_mail_with_attachment.py[line:76] INFO 开始执行用例 "登录163邮箱":
+2019-04-12 22:58:15 test_send_mail_with_attachment.py[line:130] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-12 22:58:17 test_send_mail_with_attachment.py[line:130] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-12 22:58:20 test_send_mail_with_attachment.py[line:130] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-12 22:58:21 test_send_mail_with_attachment.py[line:130] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-12 22:58:22 test_send_mail_with_attachment.py[line:130] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-12 22:58:23 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-12 22:58:25 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-12 22:58:26 test_send_mail_with_attachment.py[line:130] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-12 22:58:30 test_send_mail_with_attachment.py[line:130] INFO 步骤: 等待, 执行成功！
+2019-04-12 22:58:31 test_send_mail_with_attachment.py[line:130] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-12 22:58:32 test_send_mail_with_attachment.py[line:130] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-12 22:58:33 test_send_mail_with_attachment.py[line:76] INFO 开始执行用例 "发送带附件的邮件":
+2019-04-12 22:58:33 test_send_mail_with_attachment.py[line:130] INFO 步骤: 判断”写信“按钮是否在页面上可见, 执行成功！
+2019-04-12 22:58:35 test_send_mail_with_attachment.py[line:130] INFO 步骤: 单击”写信“按钮, 执行成功！
+2019-04-12 22:58:36 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入收件人地址, 执行成功！
+2019-04-12 22:58:37 test_send_mail_with_attachment.py[line:130] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-12 22:58:38 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入邮件主题, 执行成功！
+2019-04-12 22:58:39 test_send_mail_with_attachment.py[line:130] INFO 步骤: 单击”添加附件“连接, 执行成功！
+2019-04-12 22:58:42 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入附件所在绝对路径, 执行成功！
+2019-04-12 22:58:43 test_send_mail_with_attachment.py[line:130] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-12 22:58:44 test_send_mail_with_attachment.py[line:130] INFO 步骤: 显式等待附件上传完毕, 执行成功！
+2019-04-12 22:58:45 test_send_mail_with_attachment.py[line:130] INFO 步骤: 如果邮件正文中的frame框是可见，切换进该frame中, 执行成功！
+2019-04-12 22:58:47 test_send_mail_with_attachment.py[line:130] INFO 步骤: 输入邮件正文, 执行成功！
+2019-04-12 22:58:48 test_send_mail_with_attachment.py[line:130] INFO 步骤: 退出邮件正文的frame, 执行成功！
+2019-04-12 22:58:49 test_send_mail_with_attachment.py[line:130] INFO 步骤: 单击”邮件发送“按钮, 执行成功！
+2019-04-12 22:58:50 test_send_mail_with_attachment.py[line:130] INFO 步骤: 断言页面中包含”发送成功”, 执行成功！
+2019-04-12 22:58:53 test_send_mail_with_attachment.py[line:130] INFO 步骤: 关闭浏览器, 执行成功！
+2019-04-12 22:58:54 test_send_mail_with_attachment.py[line:141] INFO 共2条用例，2条需要被执行，本次执行通过2条
+
+2019-04-20 16:48:26 test_send_mail_and_create_contacts.py[line:45] INFO ****** 调用关键字驱动 ******
+2019-04-20 16:48:47 frame_work_fun.py[line:99] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 16:49:49 frame_work_fun.py[line:151] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 16:50:16 frame_work_fun.py[line:151] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 16:50:47 frame_work_fun.py[line:151] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 16:51:06 frame_work_fun.py[line:151] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 16:51:48 frame_work_fun.py[line:151] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 16:52:42 frame_work_fun.py[line:151] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 16:53:08 frame_work_fun.py[line:151] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 16:53:43 frame_work_fun.py[line:151] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 16:55:24 frame_work_fun.py[line:151] INFO 步骤: 等待, 执行成功！
+2019-04-20 16:55:47 frame_work_fun.py[line:151] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 16:56:03 frame_work_fun.py[line:151] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 16:56:20 test_send_mail_and_create_contacts.py[line:49] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 16:57:38 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 16:58:48 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 17:29:30 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 17:29:55 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 17:29:55 test_send_mail_and_create_contacts.py[line:45] INFO ****** 调用关键字驱动 ******
+2019-04-20 17:29:55 frame_work_fun.py[line:99] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 17:29:58 frame_work_fun.py[line:151] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 17:30:00 frame_work_fun.py[line:151] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 17:30:03 frame_work_fun.py[line:151] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 17:30:04 frame_work_fun.py[line:151] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 17:30:06 frame_work_fun.py[line:151] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 17:30:07 frame_work_fun.py[line:151] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 17:30:08 frame_work_fun.py[line:151] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 17:30:09 frame_work_fun.py[line:151] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 17:30:14 frame_work_fun.py[line:151] INFO 步骤: 等待, 执行成功！
+2019-04-20 17:30:15 frame_work_fun.py[line:151] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 17:30:17 frame_work_fun.py[line:151] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 17:30:17 test_send_mail_and_create_contacts.py[line:49] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 17:30:17 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 17:30:17 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 17:31:29 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 17:36:11 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 17:36:11 test_send_mail_and_create_contacts.py[line:45] INFO ****** 调用关键字驱动 ******
+2019-04-20 17:36:11 frame_work_fun.py[line:99] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 17:36:14 frame_work_fun.py[line:151] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 17:36:16 frame_work_fun.py[line:151] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 17:36:19 frame_work_fun.py[line:151] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 17:36:20 frame_work_fun.py[line:151] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 17:36:22 frame_work_fun.py[line:151] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 17:36:23 frame_work_fun.py[line:151] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 17:36:24 frame_work_fun.py[line:151] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 17:36:25 frame_work_fun.py[line:151] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 17:36:30 frame_work_fun.py[line:151] INFO 步骤: 等待, 执行成功！
+2019-04-20 17:36:31 frame_work_fun.py[line:151] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 17:36:32 frame_work_fun.py[line:151] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 17:36:33 test_send_mail_and_create_contacts.py[line:49] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 17:36:33 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 17:36:33 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 17:36:41 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 17:38:36 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 17:38:36 test_send_mail_and_create_contacts.py[line:45] INFO ****** 调用关键字驱动 ******
+2019-04-20 17:38:36 frame_work_fun.py[line:99] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 17:38:39 frame_work_fun.py[line:151] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 17:38:41 frame_work_fun.py[line:151] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 17:38:44 frame_work_fun.py[line:151] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 17:38:45 frame_work_fun.py[line:151] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 17:38:46 frame_work_fun.py[line:151] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 17:38:47 frame_work_fun.py[line:151] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 17:38:49 frame_work_fun.py[line:151] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 17:38:50 frame_work_fun.py[line:151] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 17:38:54 frame_work_fun.py[line:151] INFO 步骤: 等待, 执行成功！
+2019-04-20 17:38:56 frame_work_fun.py[line:151] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 17:38:57 frame_work_fun.py[line:151] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 17:38:57 test_send_mail_and_create_contacts.py[line:49] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 17:38:58 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 17:38:58 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 17:39:29 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 17:44:46 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 17:44:46 test_send_mail_and_create_contacts.py[line:45] INFO ****** 调用关键字驱动 ******
+2019-04-20 17:44:46 frame_work_fun.py[line:99] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 17:44:49 frame_work_fun.py[line:151] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 17:44:51 frame_work_fun.py[line:151] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 17:44:54 frame_work_fun.py[line:151] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 17:44:55 frame_work_fun.py[line:151] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 17:44:56 frame_work_fun.py[line:151] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 17:44:57 frame_work_fun.py[line:151] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 17:44:58 frame_work_fun.py[line:151] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 17:45:00 frame_work_fun.py[line:151] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 17:45:04 frame_work_fun.py[line:151] INFO 步骤: 等待, 执行成功！
+2019-04-20 17:45:05 frame_work_fun.py[line:151] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 17:45:07 frame_work_fun.py[line:151] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 17:45:07 test_send_mail_and_create_contacts.py[line:49] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 17:45:07 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 17:45:07 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 17:45:14 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 17:45:59 frame_work_fun.py[line:73] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 17:46:49 frame_work_fun.py[line:73] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 17:47:17 frame_work_fun.py[line:73] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 17:48:15 frame_work_fun.py[line:73] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 17:49:10 frame_work_fun.py[line:73] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 17:50:20 frame_work_fun.py[line:73] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 17:52:59 test_send_mail_and_create_contacts.py[line:60] INFO None
+2019-04-20 18:22:35 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 18:22:57 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 18:22:57 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 18:22:57 frame_work_fun.py[line:102] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 18:22:59 frame_work_fun.py[line:153] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 18:23:02 frame_work_fun.py[line:153] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 18:23:05 frame_work_fun.py[line:153] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 18:23:06 frame_work_fun.py[line:153] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 18:23:07 frame_work_fun.py[line:153] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 18:23:08 frame_work_fun.py[line:153] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 18:23:09 frame_work_fun.py[line:153] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 18:23:10 frame_work_fun.py[line:153] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 18:23:15 frame_work_fun.py[line:153] INFO 步骤: 等待, 执行成功！
+2019-04-20 18:23:16 frame_work_fun.py[line:153] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 18:23:17 frame_work_fun.py[line:153] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 18:23:18 test_send_mail_and_create_contacts.py[line:51] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 18:23:18 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 18:23:18 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 18:23:37 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 18:33:14 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 18:33:14 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 18:33:14 frame_work_fun.py[line:102] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 18:33:16 frame_work_fun.py[line:153] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 18:33:19 frame_work_fun.py[line:153] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 18:33:22 frame_work_fun.py[line:153] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 18:33:23 frame_work_fun.py[line:153] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 18:33:24 frame_work_fun.py[line:153] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 18:33:25 frame_work_fun.py[line:153] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 18:33:26 frame_work_fun.py[line:153] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 18:33:28 frame_work_fun.py[line:153] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 18:33:32 frame_work_fun.py[line:153] INFO 步骤: 等待, 执行成功！
+2019-04-20 18:33:33 frame_work_fun.py[line:153] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 18:33:35 frame_work_fun.py[line:153] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 18:33:35 test_send_mail_and_create_contacts.py[line:51] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 18:33:35 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 18:33:35 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 18:34:10 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 18:34:55 frame_work_fun.py[line:75] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 18:36:42 frame_work_fun.py[line:75] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 18:37:28 frame_work_fun.py[line:75] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 18:38:14 frame_work_fun.py[line:75] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 18:38:50 frame_work_fun.py[line:75] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 18:39:30 frame_work_fun.py[line:75] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 18:40:25 frame_work_fun.py[line:75] INFO 执行步骤“输入手机号”成功
+2019-04-20 18:40:53 frame_work_fun.py[line:75] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 18:41:20 frame_work_fun.py[line:75] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 18:42:24 frame_work_fun.py[line:75] INFO 执行步骤“等待2秒”成功
+2019-04-20 18:42:46 frame_work_fun.py[line:75] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 18:43:03 frame_work_fun.py[line:31] INFO 开始添加联系人 “wcx@163.com”
+2019-04-20 18:43:36 frame_work_fun.py[line:75] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 18:43:52 frame_work_fun.py[line:75] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 18:44:06 frame_work_fun.py[line:75] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 18:44:23 frame_work_fun.py[line:75] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 18:44:42 frame_work_fun.py[line:75] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 18:46:00 frame_work_fun.py[line:70] INFO 执行步骤“设为星标联系人”发生异常: None
+2019-04-20 18:50:41 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 18:50:41 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 18:50:41 frame_work_fun.py[line:103] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 18:50:43 frame_work_fun.py[line:154] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 18:50:45 frame_work_fun.py[line:154] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 18:50:48 frame_work_fun.py[line:154] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 18:50:49 frame_work_fun.py[line:154] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 18:50:50 frame_work_fun.py[line:154] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 18:50:51 frame_work_fun.py[line:154] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 18:50:52 frame_work_fun.py[line:154] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 18:50:53 frame_work_fun.py[line:154] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 18:50:57 frame_work_fun.py[line:154] INFO 步骤: 等待, 执行成功！
+2019-04-20 18:50:58 frame_work_fun.py[line:154] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 18:50:59 frame_work_fun.py[line:154] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 18:51:00 test_send_mail_and_create_contacts.py[line:51] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 18:51:00 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 18:51:00 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 18:51:00 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 18:51:00 frame_work_fun.py[line:75] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 18:51:00 frame_work_fun.py[line:75] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 18:51:01 frame_work_fun.py[line:75] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 18:51:01 frame_work_fun.py[line:75] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 18:51:01 frame_work_fun.py[line:75] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 18:51:01 frame_work_fun.py[line:75] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 18:51:02 frame_work_fun.py[line:75] INFO 执行步骤“输入手机号”成功
+2019-04-20 18:51:02 frame_work_fun.py[line:75] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 18:51:02 frame_work_fun.py[line:75] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 18:51:04 frame_work_fun.py[line:75] INFO 执行步骤“等待2秒”成功
+2019-04-20 18:51:04 frame_work_fun.py[line:75] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 18:51:05 frame_work_fun.py[line:31] INFO 开始添加联系人 “wcx@163.com”
+2019-04-20 18:51:05 frame_work_fun.py[line:75] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 18:51:05 frame_work_fun.py[line:75] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 18:51:05 frame_work_fun.py[line:75] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 18:51:06 frame_work_fun.py[line:75] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 18:51:06 frame_work_fun.py[line:75] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 18:51:06 frame_work_fun.py[line:70] INFO 执行步骤“设为星标联系人”发生异常: None
+2019-04-20 18:51:07 frame_work_fun.py[line:31] INFO 开始添加联系人 “lucy@126.com”
+2019-04-20 18:51:07 frame_work_fun.py[line:70] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”发生异常: None
+2019-04-20 18:51:08 frame_work_fun.py[line:31] INFO 开始添加联系人 “lily@qq.com”
+2019-04-20 18:51:08 frame_work_fun.py[line:70] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”发生异常: None
+2019-04-20 18:51:08 frame_work_fun.py[line:31] INFO 开始添加联系人 “amy@163.com”
+2019-04-20 18:51:08 frame_work_fun.py[line:70] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”发生异常: None
+2019-04-20 18:51:09 frame_work_fun.py[line:31] INFO 开始添加联系人 “anne@126.com”
+2019-04-20 18:51:09 frame_work_fun.py[line:70] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”发生异常: None
+2019-04-20 18:51:10 test_send_mail_and_create_contacts.py[line:28] INFO ----发邮件
+2019-04-20 18:51:10 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 18:51:10 frame_work_fun.py[line:103] INFO 开始执行用例 "发送带附件的邮件"，用例共16步
+2019-04-20 18:51:42 frame_work_fun.py[line:147] INFO 案例：发送带附件的邮件, 步骤: 判断”写信“按钮是否在页面上可见, 执行失败！
+2019-04-20 18:51:42 test_send_mail_and_create_contacts.py[line:62] INFO 共3条用例，3条需要被执行，本次执行通过1条
+
+2019-04-20 19:06:09 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 19:06:09 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 19:06:09 frame_work_fun.py[line:104] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 19:06:12 frame_work_fun.py[line:155] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 19:06:14 frame_work_fun.py[line:155] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 19:06:17 frame_work_fun.py[line:155] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 19:06:18 frame_work_fun.py[line:155] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 19:06:19 frame_work_fun.py[line:155] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 19:06:21 frame_work_fun.py[line:155] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 19:06:22 frame_work_fun.py[line:155] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 19:06:23 frame_work_fun.py[line:155] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 19:06:27 frame_work_fun.py[line:155] INFO 步骤: 等待, 执行成功！
+2019-04-20 19:06:29 frame_work_fun.py[line:155] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 19:06:31 frame_work_fun.py[line:155] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 19:06:31 test_send_mail_and_create_contacts.py[line:51] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 19:06:31 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 19:06:31 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 19:06:44 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 19:06:55 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:07:06 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:07:17 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:07:28 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:07:38 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:08:43 frame_work_fun.py[line:70] INFO 执行步骤“设为星标联系人”发生异常: None
+2019-04-20 19:11:47 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 19:11:47 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 19:11:47 frame_work_fun.py[line:105] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 19:11:50 frame_work_fun.py[line:156] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 19:11:52 frame_work_fun.py[line:156] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 19:11:55 frame_work_fun.py[line:156] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 19:11:56 frame_work_fun.py[line:156] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 19:11:58 frame_work_fun.py[line:156] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 19:11:59 frame_work_fun.py[line:156] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 19:12:00 frame_work_fun.py[line:156] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 19:12:01 frame_work_fun.py[line:156] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 19:12:06 frame_work_fun.py[line:156] INFO 步骤: 等待, 执行成功！
+2019-04-20 19:12:07 frame_work_fun.py[line:156] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 19:12:08 frame_work_fun.py[line:156] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 19:12:09 test_send_mail_and_create_contacts.py[line:51] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 19:12:09 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 19:12:09 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 19:12:25 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 19:12:54 frame_work_fun.py[line:77] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:13:12 frame_work_fun.py[line:77] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:13:29 frame_work_fun.py[line:77] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:14:02 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:14:19 frame_work_fun.py[line:77] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:15:04 frame_work_fun.py[line:77] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:15:29 frame_work_fun.py[line:77] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:15:45 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:16:04 frame_work_fun.py[line:77] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:16:18 frame_work_fun.py[line:77] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:16:49 frame_work_fun.py[line:77] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:17:31 frame_work_fun.py[line:31] INFO 开始添加联系人 “wcx@163.com”
+2019-04-20 19:20:57 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 19:20:57 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 19:20:57 frame_work_fun.py[line:105] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 19:20:59 frame_work_fun.py[line:156] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 19:21:01 frame_work_fun.py[line:156] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 19:21:04 frame_work_fun.py[line:156] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 19:21:05 frame_work_fun.py[line:156] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 19:21:06 frame_work_fun.py[line:156] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 19:21:07 frame_work_fun.py[line:156] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 19:21:09 frame_work_fun.py[line:156] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 19:21:10 frame_work_fun.py[line:156] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 19:21:14 frame_work_fun.py[line:156] INFO 步骤: 等待, 执行成功！
+2019-04-20 19:21:15 frame_work_fun.py[line:156] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 19:21:16 frame_work_fun.py[line:149] INFO 案例：登录163邮箱, 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行失败！
+2019-04-20 19:21:16 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 19:21:16 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 19:21:16 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 19:21:19 frame_work_fun.py[line:77] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:21:20 frame_work_fun.py[line:77] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:21:20 frame_work_fun.py[line:77] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:21:21 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:21:21 frame_work_fun.py[line:77] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:21:22 frame_work_fun.py[line:77] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:21:23 frame_work_fun.py[line:77] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:21:24 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:21:24 frame_work_fun.py[line:77] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:21:27 frame_work_fun.py[line:77] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:21:27 frame_work_fun.py[line:77] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:21:28 frame_work_fun.py[line:31] INFO 开始添加联系人 “wcx@163.com”
+2019-04-20 19:21:28 frame_work_fun.py[line:77] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:21:29 frame_work_fun.py[line:77] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:21:30 frame_work_fun.py[line:77] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:21:30 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:21:31 frame_work_fun.py[line:77] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:21:32 frame_work_fun.py[line:77] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:21:32 frame_work_fun.py[line:77] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:21:33 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:21:33 frame_work_fun.py[line:77] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:21:36 frame_work_fun.py[line:77] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:21:36 frame_work_fun.py[line:77] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:21:37 frame_work_fun.py[line:31] INFO 开始添加联系人 “lucy@126.com”
+2019-04-20 19:21:37 frame_work_fun.py[line:77] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:21:38 frame_work_fun.py[line:77] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:21:39 frame_work_fun.py[line:77] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:21:39 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:21:40 frame_work_fun.py[line:77] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:21:40 frame_work_fun.py[line:77] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:21:41 frame_work_fun.py[line:77] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:21:42 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:21:42 frame_work_fun.py[line:77] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:21:45 frame_work_fun.py[line:77] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:21:45 frame_work_fun.py[line:77] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:21:46 frame_work_fun.py[line:31] INFO 开始添加联系人 “lily@qq.com”
+2019-04-20 19:21:46 frame_work_fun.py[line:77] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:21:47 frame_work_fun.py[line:77] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:21:47 frame_work_fun.py[line:77] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:21:48 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:21:49 frame_work_fun.py[line:77] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:21:49 frame_work_fun.py[line:77] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:21:50 frame_work_fun.py[line:77] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:21:51 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:21:51 frame_work_fun.py[line:77] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:21:54 frame_work_fun.py[line:77] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:21:54 frame_work_fun.py[line:77] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:21:55 frame_work_fun.py[line:31] INFO 开始添加联系人 “amy@163.com”
+2019-04-20 19:21:55 frame_work_fun.py[line:77] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:21:56 frame_work_fun.py[line:77] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:21:56 frame_work_fun.py[line:77] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:21:57 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:21:58 frame_work_fun.py[line:77] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:21:58 frame_work_fun.py[line:77] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:21:59 frame_work_fun.py[line:77] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:21:59 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:22:00 frame_work_fun.py[line:77] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:22:02 frame_work_fun.py[line:77] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:22:03 frame_work_fun.py[line:77] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:22:04 frame_work_fun.py[line:31] INFO 开始添加联系人 “anne@126.com”
+2019-04-20 19:22:04 frame_work_fun.py[line:77] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:22:05 frame_work_fun.py[line:77] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:22:05 frame_work_fun.py[line:77] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:22:06 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:22:06 frame_work_fun.py[line:77] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:22:07 frame_work_fun.py[line:77] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:22:08 frame_work_fun.py[line:77] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:22:08 frame_work_fun.py[line:77] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:22:09 frame_work_fun.py[line:77] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:22:12 frame_work_fun.py[line:77] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:22:12 frame_work_fun.py[line:77] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:22:13 test_send_mail_and_create_contacts.py[line:39] INFO 测试用例 “添加联系人” 执行成功
+2019-04-20 19:22:14 test_send_mail_and_create_contacts.py[line:28] INFO ----发邮件
+2019-04-20 19:22:14 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 19:22:14 frame_work_fun.py[line:105] INFO 开始执行用例 "发送带附件的邮件"，用例共16步
+2019-04-20 19:22:45 frame_work_fun.py[line:149] INFO 案例：发送带附件的邮件, 步骤: 判断”写信“按钮是否在页面上可见, 执行失败！
+2019-04-20 19:22:45 test_send_mail_and_create_contacts.py[line:62] INFO 共3条用例，3条需要被执行，本次执行通过1条
+
+2019-04-20 19:38:11 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 19:38:11 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 19:38:11 frame_work_fun.py[line:104] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 19:38:13 frame_work_fun.py[line:155] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 19:38:15 frame_work_fun.py[line:155] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 19:38:18 frame_work_fun.py[line:155] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 19:38:19 frame_work_fun.py[line:155] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 19:38:20 frame_work_fun.py[line:155] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 19:38:21 frame_work_fun.py[line:155] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 19:38:22 frame_work_fun.py[line:155] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 19:38:23 frame_work_fun.py[line:155] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 19:38:27 frame_work_fun.py[line:155] INFO 步骤: 等待, 执行成功！
+2019-04-20 19:38:29 frame_work_fun.py[line:155] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 19:38:30 frame_work_fun.py[line:155] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 19:38:31 test_send_mail_and_create_contacts.py[line:51] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 19:38:31 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 19:38:31 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 19:38:31 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 19:38:31 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:38:32 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:38:32 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:38:33 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:38:34 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:38:34 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:38:35 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:38:36 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:38:36 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:38:39 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:38:39 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:38:40 frame_work_fun.py[line:31] INFO 开始添加联系人 “wcx@163.com”
+2019-04-20 19:38:40 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:38:41 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:38:41 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:38:42 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:38:43 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:38:43 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:38:44 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:38:45 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:38:45 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:38:48 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:38:48 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:38:49 frame_work_fun.py[line:31] INFO 开始添加联系人 “lucy@126.com”
+2019-04-20 19:38:49 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:38:50 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:38:50 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:38:51 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:38:52 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:38:52 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:38:53 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:38:54 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:38:54 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:38:57 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:38:57 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:38:58 frame_work_fun.py[line:31] INFO 开始添加联系人 “lily@qq.com”
+2019-04-20 19:38:58 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:38:59 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:38:59 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:39:00 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:39:01 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:39:01 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:39:02 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:39:03 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:39:03 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:39:06 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:39:06 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:39:07 frame_work_fun.py[line:31] INFO 开始添加联系人 “amy@163.com”
+2019-04-20 19:39:07 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:39:08 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:39:08 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:39:09 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:39:10 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:39:10 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:39:11 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:39:11 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:39:12 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:39:14 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:39:15 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:39:16 frame_work_fun.py[line:31] INFO 开始添加联系人 “anne@126.com”
+2019-04-20 19:39:16 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:39:17 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:39:17 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:39:18 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:39:18 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:39:19 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:39:20 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:39:20 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:39:21 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:39:23 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:39:24 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:39:25 test_send_mail_and_create_contacts.py[line:39] INFO 测试用例 “添加联系人” 执行成功
+2019-04-20 19:39:26 test_send_mail_and_create_contacts.py[line:28] INFO ----发邮件
+2019-04-20 19:39:26 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 19:39:26 frame_work_fun.py[line:104] INFO 开始执行用例 "发送带附件的邮件"，用例共17步
+2019-04-20 19:39:26 frame_work_fun.py[line:155] INFO 步骤: 单击“首页”链接，进入邮箱首页, 执行成功！
+2019-04-20 19:39:27 frame_work_fun.py[line:155] INFO 步骤: 判断”写信“按钮是否在页面上可见, 执行成功！
+2019-04-20 19:39:28 frame_work_fun.py[line:155] INFO 步骤: 单击”写信“按钮, 执行成功！
+2019-04-20 19:39:29 frame_work_fun.py[line:155] INFO 步骤: 输入收件人地址, 执行成功！
+2019-04-20 19:39:31 frame_work_fun.py[line:155] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-20 19:39:32 frame_work_fun.py[line:155] INFO 步骤: 输入邮件主题, 执行成功！
+2019-04-20 19:39:33 frame_work_fun.py[line:155] INFO 步骤: 单击”添加附件“连接, 执行成功！
+2019-04-20 19:39:36 frame_work_fun.py[line:155] INFO 步骤: 输入附件所在绝对路径, 执行成功！
+2019-04-20 19:39:37 frame_work_fun.py[line:155] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-20 19:39:38 frame_work_fun.py[line:155] INFO 步骤: 显式等待附件上传完毕, 执行成功！
+2019-04-20 19:39:39 frame_work_fun.py[line:155] INFO 步骤: 如果邮件正文中的frame框是可见，切换进该frame中, 执行成功！
+2019-04-20 19:39:40 frame_work_fun.py[line:155] INFO 步骤: 输入邮件正文, 执行成功！
+2019-04-20 19:39:41 frame_work_fun.py[line:155] INFO 步骤: 退出邮件正文的frame, 执行成功！
+2019-04-20 19:39:42 frame_work_fun.py[line:155] INFO 步骤: 单击”邮件发送“按钮, 执行成功！
+2019-04-20 19:39:43 frame_work_fun.py[line:155] INFO 步骤: 断言页面中包含”发送成功”, 执行成功！
+2019-04-20 19:39:47 frame_work_fun.py[line:155] INFO 步骤: 关闭浏览器, 执行成功！
+2019-04-20 19:39:47 test_send_mail_and_create_contacts.py[line:51] INFO 测试用例 “发送带附件的邮件” 执行成功
+2019-04-20 19:39:47 test_send_mail_and_create_contacts.py[line:62] INFO 共3条用例，3条需要被执行，本次执行通过3条
+
+2019-04-20 19:54:08 test_send_mail_and_create_contacts.py[line:28] INFO ----登录
+2019-04-20 19:54:08 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 19:54:08 frame_work_fun.py[line:104] INFO 开始执行用例 "登录163邮箱"，用例共12步
+2019-04-20 19:54:11 frame_work_fun.py[line:155] INFO 步骤: 打开浏览器, 执行成功！
+2019-04-20 19:54:13 frame_work_fun.py[line:155] INFO 步骤: 访问被测试网址, 执行成功！
+2019-04-20 19:54:16 frame_work_fun.py[line:155] INFO 步骤: 等待163邮箱登录主页加载完成, 执行成功！
+2019-04-20 19:54:17 frame_work_fun.py[line:155] INFO 步骤: 断言当前页面源码中是否包含“163网易免费邮--中文邮箱第一品牌”, 执行成功！
+2019-04-20 19:54:18 frame_work_fun.py[line:155] INFO 步骤: 显式等待id属性值为x-URS-iframe的frame框的出现，然后切换进入该frame框中, 执行成功！
+2019-04-20 19:54:19 frame_work_fun.py[line:155] INFO 步骤: 输入登录用户名, 执行成功！
+2019-04-20 19:54:20 frame_work_fun.py[line:155] INFO 步骤: 输入登录密码, 执行成功！
+2019-04-20 19:54:21 frame_work_fun.py[line:155] INFO 步骤: 单击登录按钮, 执行成功！
+2019-04-20 19:54:25 frame_work_fun.py[line:155] INFO 步骤: 等待, 执行成功！
+2019-04-20 19:54:26 frame_work_fun.py[line:155] INFO 步骤: 切换回默认会话窗体, 执行成功！
+2019-04-20 19:54:27 frame_work_fun.py[line:155] INFO 步骤: 断言登录成功后的页面标题是否包含”网易邮箱6.0版“关键内容, 执行成功！
+2019-04-20 19:54:27 test_send_mail_and_create_contacts.py[line:51] INFO 测试用例 “登录163邮箱” 执行成功
+2019-04-20 19:54:28 test_send_mail_and_create_contacts.py[line:28] INFO ----创建联系人
+2019-04-20 19:54:28 test_send_mail_and_create_contacts.py[line:31] INFO ****** 调用数据驱动 ******
+2019-04-20 19:54:28 frame_work_fun.py[line:31] INFO 开始添加联系人 “sr@qq.com”
+2019-04-20 19:54:28 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:54:28 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:54:29 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:54:30 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:54:30 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:54:31 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:54:31 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:54:32 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:54:33 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:54:35 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:54:36 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:54:37 frame_work_fun.py[line:31] INFO 开始添加联系人 “wcx@163.com”
+2019-04-20 19:54:37 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:54:37 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:54:38 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:54:38 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:54:39 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:54:40 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:54:40 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:54:41 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:54:42 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:54:44 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:54:45 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:54:46 frame_work_fun.py[line:31] INFO 开始添加联系人 “lucy@126.com”
+2019-04-20 19:54:46 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:54:46 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:54:47 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:54:47 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:54:48 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:54:48 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:54:49 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:54:50 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:54:50 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:54:53 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:54:54 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:54:54 frame_work_fun.py[line:31] INFO 开始添加联系人 “lily@qq.com”
+2019-04-20 19:54:55 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:54:55 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:54:56 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:54:56 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:54:57 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:54:58 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:54:58 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:54:59 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:54:59 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:55:02 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:55:03 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:55:03 frame_work_fun.py[line:31] INFO 开始添加联系人 “amy@163.com”
+2019-04-20 19:55:03 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:55:04 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:55:05 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:55:05 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:55:06 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:55:06 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:55:07 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:55:08 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:55:08 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:55:11 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:55:11 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:55:12 frame_work_fun.py[line:31] INFO 开始添加联系人 “anne@126.com”
+2019-04-20 19:55:12 frame_work_fun.py[line:76] INFO 执行步骤“单击"通讯录"链接，进入通讯录页面”成功
+2019-04-20 19:55:13 frame_work_fun.py[line:76] INFO 执行步骤“显示等待“新建联系人”按钮在页面上可见”成功
+2019-04-20 19:55:14 frame_work_fun.py[line:76] INFO 执行步骤“单击“新建联系人”按钮”成功
+2019-04-20 19:55:14 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人姓名”成功
+2019-04-20 19:55:15 frame_work_fun.py[line:76] INFO 执行步骤“输入电子邮箱”成功
+2019-04-20 19:55:15 frame_work_fun.py[line:76] INFO 执行步骤“设为星标联系人”成功
+2019-04-20 19:55:16 frame_work_fun.py[line:76] INFO 执行步骤“输入手机号”成功
+2019-04-20 19:55:17 frame_work_fun.py[line:76] INFO 执行步骤“输入联系人备注信息”成功
+2019-04-20 19:55:17 frame_work_fun.py[line:76] INFO 执行步骤“单击“确认”按钮保存新联系人”成功
+2019-04-20 19:55:20 frame_work_fun.py[line:76] INFO 执行步骤“等待2秒”成功
+2019-04-20 19:55:20 frame_work_fun.py[line:76] INFO 执行步骤“断言联系人是否成功添加”成功
+2019-04-20 19:55:22 test_send_mail_and_create_contacts.py[line:39] INFO 测试用例 “添加联系人” 执行成功
+2019-04-20 19:55:22 test_send_mail_and_create_contacts.py[line:28] INFO ----发邮件
+2019-04-20 19:55:22 test_send_mail_and_create_contacts.py[line:47] INFO ****** 调用关键字驱动 ******
+2019-04-20 19:55:22 frame_work_fun.py[line:104] INFO 开始执行用例 "发送带附件的邮件"，用例共17步
+2019-04-20 19:55:23 frame_work_fun.py[line:155] INFO 步骤: 单击“首页”链接，进入邮箱首页, 执行成功！
+2019-04-20 19:55:24 frame_work_fun.py[line:155] INFO 步骤: 判断”写信“按钮是否在页面上可见, 执行成功！
+2019-04-20 19:55:25 frame_work_fun.py[line:155] INFO 步骤: 单击”写信“按钮, 执行成功！
+2019-04-20 19:55:26 frame_work_fun.py[line:155] INFO 步骤: 输入收件人地址, 执行成功！
+2019-04-20 19:55:27 frame_work_fun.py[line:155] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-20 19:55:28 frame_work_fun.py[line:155] INFO 步骤: 输入邮件主题, 执行成功！
+2019-04-20 19:55:29 frame_work_fun.py[line:155] INFO 步骤: 单击”添加附件“连接, 执行成功！
+2019-04-20 19:55:32 frame_work_fun.py[line:155] INFO 步骤: 输入附件所在绝对路径, 执行成功！
+2019-04-20 19:55:33 frame_work_fun.py[line:155] INFO 步骤: 模拟键盘回车键, 执行成功！
+2019-04-20 19:55:34 frame_work_fun.py[line:155] INFO 步骤: 显式等待附件上传完毕, 执行成功！
+2019-04-20 19:55:35 frame_work_fun.py[line:155] INFO 步骤: 如果邮件正文中的frame框是可见，切换进该frame中, 执行成功！
+2019-04-20 19:55:36 frame_work_fun.py[line:155] INFO 步骤: 输入邮件正文, 执行成功！
+2019-04-20 19:55:37 frame_work_fun.py[line:155] INFO 步骤: 退出邮件正文的frame, 执行成功！
+2019-04-20 19:55:39 frame_work_fun.py[line:155] INFO 步骤: 单击”邮件发送“按钮, 执行成功！
+2019-04-20 19:55:40 frame_work_fun.py[line:155] INFO 步骤: 断言页面中包含”发送成功”, 执行成功！
+2019-04-20 19:55:43 frame_work_fun.py[line:155] INFO 步骤: 关闭浏览器, 执行成功！
+2019-04-20 19:55:43 test_send_mail_and_create_contacts.py[line:51] INFO 测试用例 “发送带附件的邮件” 执行成功
+2019-04-20 19:55:44 test_send_mail_and_create_contacts.py[line:62] INFO 共3条用例，3条需要被执行，本次执行通过3条
+
